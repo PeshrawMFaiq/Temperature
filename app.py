@@ -12,7 +12,7 @@ with two conditions: Air Conditioning (AC) and Fan.
 """)
 
 # Load the dataset from GitHub
-url = "https://raw.githubusercontent.com/<your-username>/<your-repo>/main/building_temperature_readings_hourly.csv"
+url = "https://raw.githubusercontent.com/<your-username>/<your-repo>/main/building_temperature_readings.csv"
 try:
     data = pd.read_csv(url, parse_dates=["Timestamp"])
     st.success("Dataset loaded successfully.")
